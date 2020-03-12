@@ -1,0 +1,12 @@
+Plugin In jenkins: SonarQube Scanner
+
+
+Add Build step:
+
+Analysis properties: 
+
+sonar.projectKey=<sonar project Key>
+sonar.projectName=<Sonar project Name>
+sonar.projectVersion=1.0
+sonar.sources=.
+sonar.sourceEncoding=UTF-8
